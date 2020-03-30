@@ -103,6 +103,8 @@ Other options to pass to autogen.sh are
     --with-gnome=<version>     build the theme for a specific Gnome version (3.14, 3.16, 3.18, 3.20)
                                Note: Normally the correct version is detected automatically and this
                                option should not be needed.
+                               Note 2: For GNOME 3.24, use --with-gnome-version=3.22
+                               (this works for now, the build system will be improved in the future)
 
 After the installation is complete you can activate the theme with `gnome-tweak-tool` or a similar program by selecting `Arc-Red`, `Arc-Red-Darker` or `Arc-Red-Dark` as Window/GTK+ theme and `Arc-Red` or `Arc-Red-Dark` as Gnome-Shell and Xfce-Notify theme.
 
